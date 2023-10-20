@@ -2,10 +2,10 @@ import os
 
 # constant
 year = 2023
-months = list(range(0, 7)) # January until June
+months = list(range(1, 7)) # January until June
 month_strings = [f"{x:02d}" for x in months]
 brand = "esso"
-cities = ["muenchen, berlin, frankfurt"]
+cities = ["muenchen", "berlin", "frankfurt"]
 fuel_type = "diesel"
 rolling_window_size = 14
 

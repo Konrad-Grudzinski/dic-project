@@ -11,6 +11,7 @@ rolling_window_size = 14
 
 display_intermediate_dataframes = False
 project_base_dir = "/home/vboxuser/dic-project/"
+visualisation_dir = os.path.join(project_base_dir, "visualisation/")
 
 def recursive_file_retrieval(path, directory_filters = [], results = []):
     if os.path.isfile(path):

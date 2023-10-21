@@ -9,6 +9,7 @@ cities = ["muenchen", "berlin", "frankfurt"]
 fuel_type = "diesel"
 rolling_window_size = 14
 
+display_intermediate_dataframes = False
 project_base_dir = "/home/vboxuser/dic-project/"
 
 def recursive_file_retrieval(path, directory_filters = [], results = []):
